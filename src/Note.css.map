@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAE,AAAA,KAAK,CAAC;EACF,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAiB;EACnC,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAiB;EACnC,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,kBAAkB;CAC9C",
+    "sources": [
+        "Note.scss"
+    ],
+    "names": [],
+    "file": "Note.css"
+}

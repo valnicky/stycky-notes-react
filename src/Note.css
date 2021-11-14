@@ -1,0 +1,12 @@
+.note {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 250px;
+  height: 150px;
+  background-color: #f7f330;
+  border: 1px solid #f3994f;
+  padding: 15px;
+  -webkit-box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=Note.css.map */
