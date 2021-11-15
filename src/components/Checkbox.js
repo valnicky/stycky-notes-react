@@ -1,30 +1,38 @@
+import { render } from '@testing-library/react';
 import React, {useState} from 'react'
 
-function Checkbox() {
-    const [checked, setCheck] = useState(false);
+class Checkbox extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            checked: false
+        }
+    }
+ //   const [checked, setCheck] = useState(false);
     
-function onChangeHandle  () {
- //    this.setCheck(!this.checked);
-     console.log(checked);
- 
-   }
-    
-   let msg;
-        if(checked) {
-       msg = 'checked';
-     //   setCheck(true);
-   } else {
-       msg = 'unchecked';
-    //    setCheck(false);
+onChangeHandle =  () => {
+     this.setState({checked: !this.state.checked});
+    // console.log(this.state.checked);
+
    }
   
-       
-    return (
-        <div>
-            <input type="checkbox" onChange = {(e) => (onChangeHandle(e))} />
-            <p>the box is {msg}</p>
-        </div>
-    )
+       render(){
+              var msg;
+              if(this.state.checked) {
+                msg = 'checked';
+                this.state.checked = true;
+             } else {
+                 msg = 'unchecked';
+                this.state.checked = false;
+            }
+              return (
+                <div>
+                    <input type="checkbox"  onChange={this.onChangeHandle} />
+                    <p>the box is {msg}</p>
+                </div>
+            )
+       }
+ 
 }
 
 export default Checkbox
