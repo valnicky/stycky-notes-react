@@ -1,6 +1,5 @@
 import { render } from '@testing-library/react';
 import React, {useState} from 'react'
-
 class Checkbox extends React.Component {
     constructor(props){
         super(props);
@@ -13,7 +12,6 @@ class Checkbox extends React.Component {
 onChangeHandle =  () => {
      this.setState({checked: !this.state.checked});
     // console.log(this.state.checked);
-
    }
   
        render(){

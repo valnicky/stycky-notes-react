@@ -1,44 +1,46 @@
 
+import { render } from '@testing-library/react';
 import React, {useState, useRef} from 'react';
 import '../Note.css';
+import './Board';
 
-function Note() {
-    const [edit, setEditing] = useState(false);
-    const [del, setDeleting] = useState(false);
-    const inputRef = useRef();
+function Note () {
+   const [edit, setEditing] = useState(false);
+   const [del, setDeleting] = useState(false);
+   const  inputRef = useRef();
     
-    const editing = () => {
+const  editing = () => {
       //  alert('Editing');
       //  console.log('editing');
-        setEditing(true);
-   //     console.log(edit);
+       setEditing(true);
     }
     
-     const deleting = () => {
+const  deleting = () => {
         setDeleting(true);
-       // console.log(del);
+   //this.setState({deleting: true})
     }
     
-    const save = () => {
+const    save = () => {
         var val = inputRef.current.value;
-        alert('val: ' + val);
+       // alert('val: ' + val);
         setEditing(false);
+     // this.setState({editing: false})
+       // this.props.onChange(this.refs.inputRef.value, this.id);
     }
-
     
-  const   RenderDisplay = () => {
+const  RenderDisplay = () => {
          return (
              <div className="note">
-                 <p>{}</p>
+                 <p></p>
                  <span>
                      <button onClick={(e) => (editing(e))}>Edit</button>
                      <button onClick={(e) => (deleting(e))}>X</button>
                 </span>
              </div>
-    )
+        )
     }
     
-    const RenderForm  = () => {
+const RenderForm  = () => {
         return(
             <div className="note">
                 <textarea ref={inputRef}></textarea>
@@ -48,11 +50,10 @@ function Note() {
     }
     
     if(edit){
-          return <RenderForm/>
-      } else {
-          return <RenderDisplay/>
+                 return <RenderForm/>
+    } else {
+                return <RenderDisplay/>
       }
-    
 }
 
 export default Note

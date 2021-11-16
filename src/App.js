@@ -1,12 +1,13 @@
 import React from "react";
 import './App.css';
-import Note from "./components/Note";
+import Board from "./components/Board";
 import Checkbox from './components/Checkbox';
+
 
 function App() {
   return (
     <div className="App">
-      <Note/>
+      <Board/>
       <Checkbox/>
      </div>
   );
