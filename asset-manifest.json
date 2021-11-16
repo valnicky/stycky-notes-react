@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sticky-notes-react/static/css/main.1ad7955a.chunk.css",
-    "main.js": "/sticky-notes-react/static/js/main.a63ecb57.chunk.js",
-    "main.js.map": "/sticky-notes-react/static/js/main.a63ecb57.chunk.js.map",
+    "main.js": "/sticky-notes-react/static/js/main.7f1d7ffb.chunk.js",
+    "main.js.map": "/sticky-notes-react/static/js/main.7f1d7ffb.chunk.js.map",
     "runtime-main.js": "/sticky-notes-react/static/js/runtime-main.b670a8d8.js",
     "runtime-main.js.map": "/sticky-notes-react/static/js/runtime-main.b670a8d8.js.map",
     "static/js/2.a13bd0f1.chunk.js": "/sticky-notes-react/static/js/2.a13bd0f1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b670a8d8.js",
     "static/js/2.a13bd0f1.chunk.js",
     "static/css/main.1ad7955a.chunk.css",
-    "static/js/main.a63ecb57.chunk.js"
+    "static/js/main.7f1d7ffb.chunk.js"
   ]
 }
