@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/sticky-notes-react/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/sticky-notes-react/static/js/main.40404e9e.chunk.js",
-    "main.js.map": "/sticky-notes-react/static/js/main.40404e9e.chunk.js.map",
-    "runtime-main.js": "/sticky-notes-react/static/js/runtime-main.e820ecc2.js",
-    "runtime-main.js.map": "/sticky-notes-react/static/js/runtime-main.e820ecc2.js.map",
-    "static/js/2.1584ba0b.chunk.js": "/sticky-notes-react/static/js/2.1584ba0b.chunk.js",
-    "static/js/2.1584ba0b.chunk.js.map": "/sticky-notes-react/static/js/2.1584ba0b.chunk.js.map",
-    "static/js/3.20073384.chunk.js": "/sticky-notes-react/static/js/3.20073384.chunk.js",
-    "static/js/3.20073384.chunk.js.map": "/sticky-notes-react/static/js/3.20073384.chunk.js.map",
+    "main.css": "/sticky-notes-react/static/css/main.1ad7955a.chunk.css",
+    "main.js": "/sticky-notes-react/static/js/main.a63ecb57.chunk.js",
+    "main.js.map": "/sticky-notes-react/static/js/main.a63ecb57.chunk.js.map",
+    "runtime-main.js": "/sticky-notes-react/static/js/runtime-main.b670a8d8.js",
+    "runtime-main.js.map": "/sticky-notes-react/static/js/runtime-main.b670a8d8.js.map",
+    "static/js/2.a13bd0f1.chunk.js": "/sticky-notes-react/static/js/2.a13bd0f1.chunk.js",
+    "static/js/2.a13bd0f1.chunk.js.map": "/sticky-notes-react/static/js/2.a13bd0f1.chunk.js.map",
+    "static/js/3.af8717bd.chunk.js": "/sticky-notes-react/static/js/3.af8717bd.chunk.js",
+    "static/js/3.af8717bd.chunk.js.map": "/sticky-notes-react/static/js/3.af8717bd.chunk.js.map",
     "index.html": "/sticky-notes-react/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/sticky-notes-react/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.1584ba0b.chunk.js.LICENSE.txt": "/sticky-notes-react/static/js/2.1584ba0b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/sticky-notes-react/static/media/logo.6ce24c58.svg"
+    "static/css/main.1ad7955a.chunk.css.map": "/sticky-notes-react/static/css/main.1ad7955a.chunk.css.map",
+    "static/js/2.a13bd0f1.chunk.js.LICENSE.txt": "/sticky-notes-react/static/js/2.a13bd0f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e820ecc2.js",
-    "static/js/2.1584ba0b.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.40404e9e.chunk.js"
+    "static/js/runtime-main.b670a8d8.js",
+    "static/js/2.a13bd0f1.chunk.js",
+    "static/css/main.1ad7955a.chunk.css",
+    "static/js/main.a63ecb57.chunk.js"
   ]
 }
